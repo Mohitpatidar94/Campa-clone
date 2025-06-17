@@ -1,0 +1,269 @@
+@media only screen and (max-width: 1400px) {
+    .header img {
+        height: 13vw;
+    }
+
+    .header {
+        padding-right: 7vw;
+        height: 17vh;
+
+    }
+
+    .content {
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .left {
+        width: 100%;
+        padding-top: 15vw;
+    }
+
+    .left p {
+        width: 77%;
+    }
+
+    .center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-block: 22px;
+    }
+
+    .center img {
+        height: 100%;
+        position: absolute;
+    }
+
+    .right {
+        height: 40%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .circle {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .inner-images {
+        flex-direction: column;
+    }
+
+    .img-para {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-para p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1121px) {
+    .left-naming {
+        padding-inline: 50px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .header {
+        height: 12vh;
+    }
+
+    .header ul li {
+        display: none;
+    }
+
+    #sidebar li {
+        display: flex;
+    }
+
+  
+
+    .right {
+        flex-wrap: wrap;
+    }
+
+    .header ul i {
+        display: block;
+        font-size: 25px;
+    }
+
+    .img-para p {
+        width: 100%;
+    }
+
+    .imgg .ring {
+        height: 6%;
+    }
+
+    .imgg .bottle {
+        height: 400px;
+    }
+
+    .cane-image .cane_one {
+        height: 250px;
+    }
+
+    .cane-image .cane_two {
+        height: 320px;
+    }
+
+    .blog-section {
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+
+    .left-naming {
+        height: 280px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .left-naming h2:first-of-type {
+        margin-inline: 70px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sub-footer {
+        height: 740px;
+        flex-direction: column;
+    }
+
+    .form-box {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .imgg .ring {
+        height: 400px;
+    }
+
+    .imgg .bottle {
+        height: 300px;
+    }
+
+    .left-naming h2:first-of-type {
+        margin-inline: 30px;
+    }
+
+    .blog-section {
+        height: 690px;
+    }
+
+    .slider-track img {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .img-para p {
+        width: 100%;
+    }
+
+    .imgg .ring {
+        height: 30vh;
+    }
+
+    .imgg .bottle {
+        height: 200px;
+    }
+
+    .imgg .cola {
+        height: 200px;
+    }
+
+    .imgg .ice1,
+    .ice2,
+    .ice3 {
+        height: 30px;
+    }
+
+    .about-cola h2 {
+        font-size: 30px;
+        width: 150px;
+    }
+
+    .cane-image .cane_one {
+        height: 200px;
+    }
+
+    .cane-image .cane_two {
+        height: 280px;
+    }
+
+    .left-naming a img {
+        display: none;
+    }
+
+    .left-naming h2:first-of-type {
+        margin-inline: 20px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .form-box {
+        width: 315px;
+        padding: 13px;
+    }
+
+    .form-box form input {
+        padding-left: 0px;
+        width: 290px;
+    }
+
+    #submit-btn {
+        margin: 23px 0px;
+        left: 110px;
+    }
+
+    .social-media {
+        height: 300px;
+    }
+
+    .footer {
+        height: 39px;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    .cane-image .cane_one {
+        height: 160px;
+    }
+
+    .cane-image .cane_two {
+        height: 220px;
+    }
+
+    .form-box {
+        height: 300px;
+        width: 270px;
+        padding: 8px;
+    }
+
+    .form-box form input {
+        width: 254px;
+    }
+
+    #submit-btn {
+        margin: 18px 0px;
+        left: 90px;
+    }
+
+    .social-media {
+        height: 278px;
+    }
+}
